@@ -1,7 +1,7 @@
 
 # This Python script was translated from Matlab codes developed and provided as
 # part of the following publication: Cardiff, M. and Barrash, W. (2015). 
-# Analytical and semi‐analytical tools for the design of oscillatory pumping 
+# Analytical and semi-analytical tools for the design of oscillatory pumping 
 # tests. Groundwater, 53(6), 896-907. The original Matlab codes are copyright
 # of Michael Cardiff (University of Wisconsin-Madison), 2013-2014.
 
@@ -143,7 +143,7 @@ for p in range(num_periods):
             'Period = '+str(period_list[p])+' s', rotation=90)
 
 mpl.colorbar.ColorbarBase(ax=f.add_axes([0.08, 0.04, 0.86, 0.018]),
-                          cmap='bwr',
+                          cmap=plt.get_cmap('bwr'),
                           norm=mpl.colors.Normalize(vmin=-0.1, vmax=0.1),
                           ticks=np.arange(-0.1, 0.15, 0.05), 
                           orientation='horizontal',
