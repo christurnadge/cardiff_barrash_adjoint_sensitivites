@@ -1,4 +1,10 @@
 
+# This Python script was translated from Matlab codes developed and provided as
+# part of the following publication: Cardiff, M. and Barrash, W. (2015). 
+# Analytical and semi‐analytical tools for the design of oscillatory pumping 
+# tests. Groundwater, 53(6), 896-907. The original Matlab codes are copyright
+# of Michael Cardiff (University of Wisconsin-Madison), 2013-2014.
+
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
